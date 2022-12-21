@@ -1,0 +1,15 @@
+CREATE DATABASE bd_miempresa;
+
+CREATE TABLE tb_empleado(
+id_person int AUTO_INCREMENT PRIMARY KEY,
+nombre varchar(50),
+apellido varchar(50),
+edad int(20)
+)
+
+INSERT INTO tb_empleado(id_person, nombre, apellido, edad) 
+VALUES 
+(null,'Carolina','Gómez del Pozo',37),
+(null,'Estefanía','Morales HonHon',35),
+(null,'Luna','Morales',18),
+(null,'Luis','Del Morán',42)
